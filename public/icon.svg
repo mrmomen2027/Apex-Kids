@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="40%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle -->
+  <rect width="512" height="512" rx="120" fill="url(#bg)"/>
+  
+  <!-- Outer Glow Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#ffffff" stroke-width="12" stroke-opacity="0.3"/>
+
+  <!-- Golden Stars -->
+  <polygon points="120,110 132,138 162,140 138,160 146,190 120,172 94,190 102,160 78,140 108,138" fill="url(#star)" />
+  <polygon points="390,110 402,138 432,140 408,160 416,190 390,172 364,190 372,160 348,140 378,138" fill="url(#star)" />
+  
+  <!-- Rocket Graphic -->
+  <g transform="translate(186, 120) scale(0.9)">
+    <path d="M75,20 C110,40 140,80 150,150 L115,185 C95,175 60,175 35,185 L0,150 C10,80 40,40 75,20 Z" fill="#ffffff" />
+    <path d="M75,20 C60,40 40,80 0,150 L35,185 C60,175 95,175 115,185 L150,150 C110,80 90,40 75,20 Z" fill="#ffffff" opacity="0.9" />
+    <!-- Window -->
+    <circle cx="75" cy="90" r="28" fill="#38bdf8" stroke="#f59e0b" stroke-width="6"/>
+    <circle cx="70" cy="85" r="8" fill="#ffffff" opacity="0.8"/>
+    <!-- Fins -->
+    <path d="M10,130 L-25,180 L15,180 Z" fill="#ec4899" />
+    <path d="M140,130 L175,180 L135,180 Z" fill="#ec4899" />
+    <path d="M60,185 L90,185 L75,220 Z" fill="#f59e0b" />
+    <!-- Flame -->
+    <path d="M50,220 Q75,280 100,220 Q75,250 50,220 Z" fill="#ef4444" />
+    <path d="M60,220 Q75,260 90,220 Z" fill="#fde047" />
+  </g>
+
+  <!-- APEX Text -->
+  <text x="256" y="420" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="78" fill="#ffffff" text-anchor="middle" letter-spacing="4">APEX</text>
+  <text x="256" y="465" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="#fde047" text-anchor="middle" letter-spacing="2">MR. MOMEN ABASS</text>
+</svg>

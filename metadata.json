@@ -1,0 +1,6 @@
+{
+  "name": "APEX - English Learning for Kids",
+  "description": "Interactive English learning app for 4-5 year olds by Mr. Momen Abass (01033389689) featuring Missions, Tracing, Grammar, Animated Stories, and Games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
